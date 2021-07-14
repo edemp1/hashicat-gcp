@@ -1,7 +1,7 @@
 module "network" {
-  source  = "app.terraform.io/EKRYDA-training/network/google"
-  version = "3.3.0"
-  project = var.project
+  source     = "app.terraform.io/EKRYDA-training/network/google"
+  version    = "3.3.0"
+  project_id = var.project
   # insert required variables here
 
   subnets = [
